@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.jumbotron{
+    width: 1024px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.mobile{
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+.mobile p{
+    font-size: 5vw;
+}
+
+.mobile a{
+    width: 90%;
+    margin: 0px auto;
+}
+
+iframe{
+    width: 100%;
+    border: 1px solid black;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .jumbotron{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+}
