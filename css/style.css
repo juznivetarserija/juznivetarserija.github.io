@@ -14,9 +14,20 @@
 }
 
 .mobile{
+    color: #FFFFFF;
     display: none;
     text-align: center;
     width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.mobile h1{
+    font-size: 10vw;
 }
 
 .mobile p{
@@ -24,7 +35,8 @@
 }
 
 .mobile a{
-    width: 90%;
+    width: 80%;
+    font-size: 4.5vw;
     margin: 0px auto;
 }
 
@@ -35,11 +47,14 @@ iframe{
 }
 
 @media only screen and (max-width: 1024px) {
+    body{
+        background: linear-gradient(30deg, #2980b9, #16a085);
+    }
     .jumbotron{
-        display: none;
+        display: none;        
     }
     
     .mobile{
-        display: block;
+        display: block;        
     }
 }
