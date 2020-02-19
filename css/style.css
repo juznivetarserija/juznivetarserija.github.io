@@ -42,7 +42,7 @@
 
 iframe{
     width: 100%;
-    border: 1px solid black;
+    border: none;
     height: 100%;
 }
 
@@ -50,11 +50,16 @@ iframe{
     body{
         background: linear-gradient(30deg, #2980b9, #16a085);
     }
+    
     .jumbotron{
         display: none;        
     }
     
     .mobile{
         display: block;        
+    }
+    
+    iframe{
+        width: 100%;
     }
 }
