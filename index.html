@@ -6,36 +6,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
         <script data-ad-client="ca-pub-6191582387499154" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <style>
+            html,
+            body {
+              height: 100%;
+            }
+
+            body {
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-align: center;
+              align-items: center;
+              padding-top: 40px;
+              padding-bottom: 40px;
+              background-color: #f5f5f5;
+              text-align: center;
+            }      
+        </style>        
+        <script defer src="js/validate.js"></script>
     </head>
     
     <body>
-        <div class="jumbotron">
-          <h1 class="display-4">ЈУЖНИ ВЕТАР СЕРИЈА</h1>
-          <p class="lead">Овозможено од <a href="https://www.instagram.com/__leoi__/">@__leoi__</a></p>
-          <hr class="my-4">
-          <p>Листа на епизоди достапни за гледање онлајн (2020):</p>
-          <a href="epizoda1.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 1 - 16.02</a>
-          <a href="epizoda2.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 2 - 23.02</a>
-          <a href="epizoda3.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 3 - 01.03</a>
-          <a href="epizoda4.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 4 - 08.03</a>
-          <a href="epizoda5.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 5 - 15.03</a>
-          <hr class="my-4">
-          <p>Јужни ветар (2018) - цел филм:</p>
-          <a href="celfilm.html" type="button" class="btn btn-primary btn-lg btn-block">Цел филм</a>
-        </div>
-        
-        <div class="mobile">
-          <h1 class="display-4">ЈУЖНИ ВЕТАР СЕРИЈА</h1>
-          <p>Овозможено од <a href="https://www.instagram.com/__leoi__/">@__leoi__</a></p>
-          <p>Листа на епизоди достапни за гледање онлајн (2020):</p>
-          <a href="epizoda1.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 1 - 16.02</a>
-          <a href="epizoda2.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 2 - 23.02</a>
-          <a href="epizoda3.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 3 - 01.03</a>
-          <a href="epizoda4.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 4 - 08.03</a>
-          <a href="epizoda5.html" type="button" class="btn btn-primary btn-lg btn-block">Епизода 5 - 15.03</a>
-          <br />
-          <p>Јужни ветар (2018) - цел филм:</p>
-          <a href="celfilm.html" type="button" class="btn btn-primary btn-lg btn-block">Цел филм</a>
-        </div>
+        <form class="form-signin" autocomplete="off" method="GET" action="strana.html#true" id="form">
+            <h1 class="h3 mb-2 font-weight-normal">ЈУЖНИ ВЕТАР СЕРИЈА</h1>
+            <h1 class="h4 mb-1 font-weight-normal">Внеси го бараното</h1>
+            <p>Во случај да немате код обратете се кај <a href="https://www.instagram.com/__leoi__/">@__leoi__</a> на инстаграм.</p>
+            <label for="inputName" class="sr-only" autoco>Внеси име</label>
+            <input type="text" id="inputName" class="form-control" placeholder="Внеси име" required autofocus>
+            <label for="inputPassword" class="sr-only">Внеси код</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Внеси код" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Кон страната за гледање</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+        </form>
     </body>
 </html>
