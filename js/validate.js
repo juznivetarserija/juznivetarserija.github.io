@@ -9,6 +9,10 @@ form.addEventListener('submit', (e) => {
     if((name == "leo" && code == "indov") 
        || (name == "naum" && code == "fam97")
        || (name == "dimi" && code == "9797s")
+       || (name == "emir" && code == "emco7")
+       || (name == "david" && code == "ljus1")
+       || (name == "mihaela" && code == "aa1aa")
+       || (name == "leontina" && code == "kiro1")
       ){
         statt = -1;
     }
