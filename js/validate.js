@@ -5,6 +5,7 @@ form.addEventListener('submit', (e) => {
     var code = document.getElementById('inputPassword').value;
     var statt = 1;    
     
+    //nema free hosting za php mora vaka :)
     if((name == "leo" && code == "indov") 
        || (name == "naum" && code == "fam97")
        || (name == "dimi" && code == "9797s")
