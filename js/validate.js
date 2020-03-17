@@ -14,6 +14,10 @@ form.addEventListener('submit', (e) => {
        || (name == "mihaela" && code == "aa1aa")
        || (name == "leontina" && code == "kiro1")
        || (name == "kobi" && code == "dq2oo")
+       || (name == "joco" && code == "bocko")
+       || (name == "stefi" && code == "ab5aa")
+       || (name == "izum" && code == "pe2cc")
+       || (name == "bocko" && code == "6a22c")
       ){
         statt = -1;
     }
