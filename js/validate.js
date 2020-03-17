@@ -18,6 +18,7 @@ form.addEventListener('submit', (e) => {
        || (name == "stefi" && code == "ab5aa")
        || (name == "izum" && code == "pe2cc")
        || (name == "bocko" && code == "6a22c")
+       || (name == "hristijan" && code == "99kur")
       ){
         statt = -1;
     }
