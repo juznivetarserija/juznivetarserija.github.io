@@ -27,3 +27,11 @@ form.addEventListener('submit', (e) => {
         alert("Невалидно! Обидете се повторно!");
     }
 });
+
+window.onload = function() {
+    var raboti = 0;
+    if(raboti == 0){
+        form.style.display = "none";
+        document.getElementById('aaaa').style.display = "block";
+    }
+};
